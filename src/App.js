@@ -3,7 +3,7 @@ import Dictionary from "./Dictionary";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container mt-5">
       <Dictionary />
     </div>
   );
