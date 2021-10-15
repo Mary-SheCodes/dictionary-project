@@ -8,7 +8,7 @@ const Phonetics = (props) => {
       {props.data.map((phonetic, index) => {
         return (
           <div key={index}>
-            <a href={phonetic.audio} target="_blank">
+            <a href={phonetic.audio} target="_blank" rel="noreferrer">
               Listen
             </a>{" "}
             {phonetic.text}
