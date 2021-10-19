@@ -1,0 +1,51 @@
+.papersheet {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 50px auto 0;
+  max-width: 900px;
+  min-height: 800px;
+  padding: 20px;
+  position: relative;
+  font-size: x-large;
+  font-family: "Indie Flower", cursive;
+}
+
+.papersheet:before,
+.papersheet:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.papersheet:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  left: -20px;
+  top: 4px;
+  transform: rotate(-3.2deg);
+}
+
+.papersheet:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  right: -20px;
+  top: 4px;
+  transform: rotate(4.4deg);
+}
+
+.paperline {
+  background: #fff;
+  background: repeating-linear-gradient(
+    white,
+    white 23px,
+    #9198e5 24px,
+    #9198e5 25px
+  );
+
+  width: 95%;
+  min-height: 700px;
+  padding: 0;
+  margin: 50px 15px 50px 15px;
+}

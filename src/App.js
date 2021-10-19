@@ -1,10 +1,16 @@
 import React from "react";
 import Dictionary from "./Dictionary";
 
+import "./App.css";
+
 const App = () => {
   return (
-    <div className="container mt-5">
-      <Dictionary />
+    <div className="container App">
+      <div className="papersheet ">
+        <div className="paperline">
+          <Dictionary />
+        </div>
+      </div>
     </div>
   );
 };

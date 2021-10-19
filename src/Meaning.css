@@ -1,0 +1,13 @@
+.Meaning .header-typeofword,
+.Meaning .example {
+  font-family: "Cookie", cursive;
+}
+
+.Meaning .header-typeofword {
+  font-size: 45px;
+}
+
+.Meaning .example {
+  font-size: 30px;
+  font-weight: bold;
+}
