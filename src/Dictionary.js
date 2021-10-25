@@ -91,7 +91,6 @@ const Dictionary = () => {
             />
           </div>
         </form>
-
         {error}
         <Results data={results} />
       </div>
