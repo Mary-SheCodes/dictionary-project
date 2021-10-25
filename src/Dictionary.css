@@ -2,4 +2,10 @@
   font-family: "Fredericka the Great", cursive;
   font-weight: bold;
   font-size: xx-large;
+  text-align: left;
+}
+@media (max-width: 420px) {
+  .Dictionary .header-search {
+    font-size: x-large;
+  }
 }
