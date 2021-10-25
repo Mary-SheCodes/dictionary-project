@@ -14,6 +14,7 @@ const App = () => {
         </div>
       </div>
       <footer className="Footer">
+        <img className="logo" src="/logo/200x156.png" />
         Coded by
         <a
           className="footer-link"
