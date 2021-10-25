@@ -1,8 +1,8 @@
 .Meaning .header-typeofword {
-  font-size: 45px;
+  font-size: x-large;
 }
 
 .Meaning .example {
-  font-size: 30px;
+  font-size: large;
   font-weight: bold;
 }
