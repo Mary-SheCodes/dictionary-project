@@ -3,7 +3,6 @@ import "./Phonetics.css";
 
 const Phonetics = (props) => {
   const PlayAudio = (props) => {
-    console.log(props);
     let audio = new Audio(props);
     audio.play();
   };
