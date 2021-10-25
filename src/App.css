@@ -88,3 +88,13 @@
     width: 60px;
   }
 }
+@media (min-width: 1550px) {
+  .papersheet {
+    max-width: 50vw;
+  }
+}
+@media (min-width: 1800px) {
+  .papersheet {
+    max-width: 40vw;
+  }
+}

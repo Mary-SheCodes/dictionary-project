@@ -68,10 +68,10 @@ const Dictionary = () => {
         {error}
         <Loader
           type="ThreeDots"
-          color="#00BFFF"
+          color="#142D4C"
           height={100}
           width={100}
-          timeout={3000} //3 secs
+          timeout={5000} //3 secs
         />{" "}
       </div>
     );
