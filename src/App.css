@@ -50,6 +50,21 @@
   margin: 50px 15px 50px 15px;
 }
 
+.Footer {
+  margin: 20px 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: small;
+}
+.footer-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-link:hover {
+  color: rgb(70, 66, 66);
+}
 @media (max-width: 420px) {
   .papersheet:before {
     left: -2px;
