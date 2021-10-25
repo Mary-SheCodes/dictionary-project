@@ -7,7 +7,10 @@
   padding: 20px;
   position: relative;
   font-size: large;
-  font-family: "Patrick Hand", cursive;
+  font-family: "Josefin Slab", serif;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .papersheet:before,
@@ -82,6 +85,6 @@
     transform: rotate(2deg);
   }
   .logo {
-  width: 60px;
-}
+    width: 60px;
+  }
 }

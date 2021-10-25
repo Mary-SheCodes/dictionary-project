@@ -1,9 +1,10 @@
 .Meaning .header-typeofword {
   font-size: x-large;
+  font-family: "Fredericka the Great", cursive;
   font-weight: bold;
 }
 
 .Meaning .example {
-  font-size: large;
-  font-weight: bold;
+  font-size: medium;
+  font-family: "Fredericka the Great", cursive;
 }
