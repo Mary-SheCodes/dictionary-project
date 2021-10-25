@@ -10,14 +10,12 @@ const Meaning = (props) => {
       {props.data.definitions.map((definition, index) => {
         return (
           <div key={index}>
-            <p>
-              {definition.definition}
-              <br />
-              <span className="example">Example: </span>
+            {definition.definition}
+            <br />
+            <span className="example">Example: </span>
             {definition.example}
-              <br />
-              <Synonyms data={definition.synonyms} />
-            </p>
+            <br />
+            <Synonyms data={definition.synonyms} />
           </div>
         );
       })}

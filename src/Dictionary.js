@@ -46,11 +46,11 @@ const Dictionary = () => {
     <div className="Dictionary">
       <h1 className="header-search">What word are you looking for?</h1>
       <form onSubmit={search}>
-        <div class="input-group flex-nowrap">
-          <span class="input-group-text">🔎</span>
+        <div className="input-group flex-nowrap">
+          <span className="input-group-text">🔎</span>
           <input
             type="search"
-            class="form-control"
+            className="form-control"
             placeholder="Enter a Word"
             aria-label="Search"
             onChange={handleKeywordChange}

@@ -2,16 +2,24 @@ import React from "react";
 import "./Phonetics.css";
 
 const Phonetics = (props) => {
-  console.log(props.data);
+  const PlayAudio = (props) => {
+    console.log(props);
+    let audio = new Audio(props);
+    audio.play();
+  };
 
   return (
     <div className="Phonetics">
       {props.data.map((phonetic, index) => {
         return (
           <div key={index}>
-            <a href={phonetic.audio} target="_blank" rel="noreferrer">
-              <i class="fas fa-play"></i>
-            </a>{" "}
+            <span>
+              <i
+                onClick={() => PlayAudio(phonetic.audio)}
+                className="fas fa-play"
+              ></i>
+            </span>
+            {"  "}
             <span className="phonetic-text">{phonetic.text}</span>
           </div>
         );
